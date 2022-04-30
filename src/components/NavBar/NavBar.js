@@ -1,3 +1,5 @@
+
+import CartWidget from '../CartWidget.js/CartWidget'
 import './NavBar.css'
 
 function NavBar(){
@@ -25,6 +27,10 @@ function NavBar(){
 
             <li className="list__item">
                     <a className="nav__link" href="#1">Ofertas</a>
+            </li>
+            
+            <li className="list__item">
+                    <a className="nav__link" href="#1"><CartWidget/></a>
             </li>
 
         </ul>
