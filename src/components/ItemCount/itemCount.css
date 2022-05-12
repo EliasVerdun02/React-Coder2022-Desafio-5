@@ -1,7 +1,17 @@
 .itemCount{
-    justify-content: center;
     display: flex;
     align-items: center;
+}
+
+.container-modificar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
 }
 
 .agregar{
@@ -13,8 +23,13 @@ button{
     font-size: 2em;
     color: white;
     margin: .4em;
+    padding: .2em;
     box-shadow: 2px 2px 2px 2px rgba(109, 108, 108, 0.377);
     border: 2px solid rgba(212, 210, 210, 0.219);
+}
+
+.container-modificar button{
+    width: 40px;
 }
 
 p{

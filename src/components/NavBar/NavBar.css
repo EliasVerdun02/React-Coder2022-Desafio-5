@@ -21,8 +21,9 @@
 
 .nav{
     padding: 3em 0 3em;
-    width: 250px;
+    min-width: 250px;
     height: 100vh;
+    margin-right: 5em;
     border-right: 2px solid white;
     background-color: rgba(0, 0, 0, 0.733);
 }

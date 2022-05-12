@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    padding-right: 5em;
     background-image: url("https://i.pinimg.com/originals/f9/91/2a/f9912ab234450e0aabf9884236544a94.jpg");
     background-size: contain;
     background-position: 247px 0;

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './itemCount.css'
-
+import { BsFillCartFill } from 'react-icons/bs'
 
 function ItemCount({initial ,stock ,onAdd}){
 
@@ -24,10 +24,14 @@ function ItemCount({initial ,stock ,onAdd}){
 
     return(
         <div className='itemCount'>
-            <button onClick={aumentar}>+</button>
-            <p>{count}</p>
-            <button onClick={disminuir}>-</button>
-            <button className='agregar' onClick={añadirCarrito}>Agregar al carrito</button>
+            <div className='container-modificar'>
+               <button onClick={aumentar}>+</button>
+               <p>{count}</p>
+               <button onClick={disminuir}>-</button>
+            </div>
+            <div className='container-button'>
+               <button className='agregar' onClick={añadirCarrito}><BsFillCartFill/></button>
+            </div>
         </div>
     )
 }
